@@ -1,0 +1,13 @@
+{% assign skills = site.games | sort: 'level' | reverse %}
+<section id="games" class="section games">
+  <i class="section-icon icon-screen"></i>
+  <span class="section-title">Games</span>
+  <ul class="skill-list">
+    {% for skill in skills %}
+      <li class="games">
+        <div class="expand front-level {% include _skill-level-css.html level=skill.level  %}"></div>
+        <em>{{ skill.name }} - {% include _skill-level-name.html level=skill.level  %}<em>
+      </li>
+    {% endfor %}
+  </ul>
+</section>
