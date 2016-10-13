@@ -8,13 +8,13 @@ language: "" # language to set into html tag, default is en
 
 author: Bruno Willian Andrade
 author-title: Back-end and Games Developer
-gravatar: d36a082aacb53b6f76869748fb4b81d4
+gravatar: 7ad4ce6bd159ac37d00cd4630b08880f
 email: brunowillianandrade@gmail.com
 #twitter: wendell_adriel
 github: RatoZumbi
 googleplus: +BrunoWillianAndrade
 facebook: bruno.willian
-linkedin: bruno-willian-andrade-1611a065
+#linkedin: bruno-willian-andrade-1611a065
 bio: "Brazilian developer. Game, music and technology lover.
       I am graduated in Systems Analysis and Development and I have a post-degree in Production and Development of Games.
       I love to study and learn new skills, exchange work and share my knowledge with the ones that want it. I work with Back-end Development since 2010 and with
