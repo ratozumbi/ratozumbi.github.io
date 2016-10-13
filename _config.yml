@@ -44,7 +44,7 @@ front-end:
     level: 2
   - name: ASP.NET
     level: 3
-  - name: ASP.NET
+  - name: AS3
     level: 3
     
 back-end:
@@ -97,9 +97,9 @@ methodologies:
 
 others:
   - name: Web Services
-    level: 5
+    level: 4
   - name: REST
-    level: 5
+    level: 4
   - name: JEE, JSF, JPA, EJB, CDI
     level: 3
   - name: Hibernate
