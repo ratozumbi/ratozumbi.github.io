@@ -12,9 +12,9 @@ gravatar: d36a082aacb53b6f76869748fb4b81d4
 email: brunowillianandrade@gmail.com
 #twitter: wendell_adriel
 github: RatoZumbi
-googleplus: +WendellAdriel
+googleplus: +BrunoWillianAndrade
 facebook: bruno.willian
-#linkedin: wendelladrielti/en
+linkedin: bruno-willian-andrade/en
 bio: "Brazilian developer. Game, music and technology lover.
       I am graduated in Systems Analysis and Development and I have a post-degree in Production and Development of Games.
       I love to study and learn new skills, exchange work and share my knowledge with the ones that want it. I work with Back-end Development since 2010 and with
@@ -40,46 +40,26 @@ bio: "Brazilian developer. Game, music and technology lover.
 front-end:
   - name: HTML 5
     level: 2
-  - name: CSS 3
-    level: 4
   - name: JavaScript
+    level: 2
+  - name: ASP.NET
     level: 3
-  - name: jQuery
-    level: 
-  - name: Angular
-    level: 
-  - name: Vue.js
-    level: 
-  - name: Bootstrap
-    level: 
-  - name: Materialize CSS
-    level: 
-  - name: LESS
-    level: 
-  - name: SASS
-    level: 
-  - name: Stylus
-    level: 
-  - name: Gulp
-    level: 
-  - name: Grunt
-    level: 
-  - name: Bower
-    level: 
-
+  - name: ASP.NET
+    level: 3
+    
 back-end:
   - name: C
     level: 5
   - name: C#
     level: 5
-  - name: MIPS
-    level: 2
-  - name: Python
-    level: 2
+  - name: C++
+    level: 3
   - name: Java
     level: 4
-  - name: COBOL
+  - name: MIPS
     level: 2
+  - name: Bash
+    level: 3
   - name: SQL
     level: 4
   - name: Lua
@@ -88,52 +68,32 @@ back-end:
 mobile:
   - name: Android
     level: 3
-  - name: Apache Cordova
-    level: 
-  - name: Ionic
-    level: 
-  - name: NativeScript
-    level: 
+  - name: Cocos2D
+    level: 1
 
 db:
   - name: MySQL
     level: 4
-  - name: PostgreSQL
-    level: 
-  - name: MongoDB
-    level: 
   - name: SQL Server
     level: 3
   - name: Oracle
-    level: 3
-  - name: Firebase
-    level: 
-  - name: NoSQL
-    level: 
+    level: 3 
 
 devops:
-  - name: Docker
-    level: 3
-  - name: Vagrant
-    level: 3
-  - name: Jenkins
-    level: 1
   - name: Git
     level: 5
-  - name: Apache Maven
-    level: 3
+  - name: SVN
+    level: 4
   - name: Continuous Integration
-    level: 3
+    level: 4
   - name: Continuous Delivery
-    level: 2
+    level: 4
 
 methodologies:
   - name: Agile Methodologies
     level: 3
   - name: Scrum
-    level: 4
-  - name: RUP
-    level: 
+    level: 3
 
 others:
   - name: Web Services
@@ -142,26 +102,8 @@ others:
     level: 5
   - name: JEE, JSF, JPA, EJB, CDI
     level: 3
-  - name: iReport, Jasper Reports
-    level: 
   - name: Hibernate
-    level: 2
-  - name: Grails
-    level: 
-  - name: Symfony
-    level: 
-  - name: Twig
-    level: 
-  - name: Doctrine ORM
-    level: 
-  - name: Laravel, Blade, Eloquent ORM
-    level: 
-  - name: Ruby on Rails
-    level: 
-  - name: MEAN Stack
-    level: 
-  - name: Spring
-    level: 
+    level: 2 
 
 # Build settings
 
