@@ -64,12 +64,18 @@ back-end:
     level: 4
   - name: Lua
     level: 3
+    
+games:
+  - name: SDL2
+    level: 4
+  - name: Unity3D
+    level: 5
+  - name: Shiva3D
+    level: 5
 
 mobile:
   - name: Android
     level: 3
-  - name: Cocos2D
-    level: 1
 
 db:
   - name: MySQL
