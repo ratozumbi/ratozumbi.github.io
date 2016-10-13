@@ -16,13 +16,14 @@ googleplus: +WendellAdriel
 facebook: bruno.willian
 #linkedin: wendelladrielti/en
 bio: "Brazilian developer. Game, music and technology lover.
-      I graduated in Systems Analysis and Development. I'm a Zend Certified PHP Engineer and Scrum Fundamentals Certified. I love to study and learn new skills,
-      exchange work and study experience with people around me and share my knowledge with the ones that want it. I work with Web Development since 2009 and with
-      Mobile Development since 2015 as Freelancer and in some Brazilian companies too.
-      I'm the creator of CodeShare, a free portal with articles, videos, etc, about Software Development. The purpose of this project is to help people who want
-      to learn about Software Development and start their careers in IT area and to help people that already work with Software Development to improve their
-      technical knowledge to get better job opportunities.
-      I like to work with both: Front-End and Back-End development. I work with many languages, frameworks and technologies."
+      I am graduated in Systems Analysis and Development and I have a post-degree in Production and Development of Games.
+      I love to study and learn new skills, exchange work and share my knowledge with the ones that want it. I work with Back-end Development since 2010 and with
+      Games Development since 2013.
+      You can find my published games in google play
+      https://play.google.com/store/apps/developer?id=Bruno+Willian+Andrade
+      And some other projects here in
+      https://github.com/ratozumbi 
+      I like to work with both: Back-End development. I work with many languages, frameworks and technologies."
 
 # Skills
 #
@@ -38,40 +39,40 @@ bio: "Brazilian developer. Game, music and technology lover.
 # If you don't want one of the sections below, leave the variable without any values
 front-end:
   - name: HTML 5
-    level: 4
+    level: 2
   - name: CSS 3
     level: 4
   - name: JavaScript
-    level: 4
+    level: 3
   - name: jQuery
-    level: 4
+    level: 
   - name: Angular
-    level: 4
+    level: 
   - name: Vue.js
-    level: 2
+    level: 
   - name: Bootstrap
-    level: 4
+    level: 
   - name: Materialize CSS
-    level: 5
+    level: 
   - name: LESS
-    level: 3
+    level: 
   - name: SASS
-    level: 3
+    level: 
   - name: Stylus
-    level: 4
+    level: 
   - name: Gulp
-    level: 4
+    level: 
   - name: Grunt
-    level: 3
+    level: 
   - name: Bower
-    level: 3
+    level: 
 
 back-end:
-  - name: PHP
+  - name: C
     level: 5
-  - name: Node.js
-    level: 3
-  - name: Ruby
+  - name: C#
+    level: 5
+  - name: MIPS
     level: 2
   - name: Python
     level: 2
@@ -82,33 +83,33 @@ back-end:
   - name: SQL
     level: 4
   - name: Lua
-    level: 2
+    level: 3
 
 mobile:
   - name: Android
-    level: 2
-  - name: Apache Cordova
-    level: 4
-  - name: Ionic
-    level: 4
-  - name: NativeScript
     level: 3
+  - name: Apache Cordova
+    level: 
+  - name: Ionic
+    level: 
+  - name: NativeScript
+    level: 
 
 db:
   - name: MySQL
     level: 4
   - name: PostgreSQL
-    level: 3
+    level: 
   - name: MongoDB
-    level: 4
+    level: 
   - name: SQL Server
-    level: 2
+    level: 3
   - name: Oracle
     level: 3
   - name: Firebase
-    level: 3
+    level: 
   - name: NoSQL
-    level: 4
+    level: 
 
 devops:
   - name: Docker
@@ -132,7 +133,7 @@ methodologies:
   - name: Scrum
     level: 4
   - name: RUP
-    level: 3
+    level: 
 
 others:
   - name: Web Services
@@ -142,25 +143,25 @@ others:
   - name: JEE, JSF, JPA, EJB, CDI
     level: 3
   - name: iReport, Jasper Reports
-    level: 2
+    level: 
   - name: Hibernate
-    level: 3
-  - name: Grails
     level: 2
+  - name: Grails
+    level: 
   - name: Symfony
-    level: 3
+    level: 
   - name: Twig
-    level: 4
+    level: 
   - name: Doctrine ORM
-    level: 3
+    level: 
   - name: Laravel, Blade, Eloquent ORM
-    level: 5
+    level: 
   - name: Ruby on Rails
-    level: 3
+    level: 
   - name: MEAN Stack
-    level: 4
+    level: 
   - name: Spring
-    level: 3
+    level: 
 
 # Build settings
 
