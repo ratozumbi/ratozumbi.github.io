@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bruno Willian Andrade - Game Developer | VR/AR Specialist</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+        
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        header h2 {
+            font-size: 1.3em;
+            font-weight: 300;
+            margin-bottom: 20px;
+        }
+        
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            font-size: 0.95em;
+        }
+        
+        .contact-info a {
+            color: white;
+            text-decoration: none;
+        }
+        
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+        
+        .content {
+            padding: 40px;
+        }
+        
+        section {
+            margin-bottom: 40px;
+        }
+        
+        h3 {
+            color: #667eea;
+            font-size: 1.8em;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 3px solid #667eea;
+        }
+        
+        .summary {
+            font-size: 1.05em;
+            line-height: 1.8;
+            color: #555;
+        }
+        
+        .experience-item {
+            margin-bottom: 30px;
+            padding-left: 20px;
+            border-left: 4px solid #667eea;
+        }
+        
+        .experience-item h4 {
+            color: #333;
+            font-size: 1.3em;
+            margin-bottom: 5px;
+        }
+        
+        .experience-item .company {
+            color: #667eea;
+            font-weight: 600;
+            font-size: 1.1em;
+            margin-bottom: 5px;
+        }
+        
+        .experience-item .period {
+            color: #888;
+            font-size: 0.9em;
+            margin-bottom: 10px;
+        }
+        
+        .experience-item p {
+            margin-bottom: 10px;
+        }
+        
+        .experience-item ul {
+            margin-left: 20px;
+            margin-top: 10px;
+        }
+        
+        .experience-item li {
+            margin-bottom: 8px;
+        }
+        
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 15px;
+        }
+        
+        .skill-tag {
+            background: #f0f0f0;
+            padding: 5px 12px;
+            border-radius: 15px;
+            font-size: 0.9em;
+            color: #555;
+        }
+        
+        .education-item {
+            margin-bottom: 20px;
+            padding-left: 20px;
+            border-left: 4px solid #764ba2;
+        }
+        
+        .education-item h4 {
+            color: #333;
+            font-size: 1.2em;
+            margin-bottom: 5px;
+        }
+        
+        .education-item .school {
+            color: #764ba2;
+            font-weight: 600;
+        }
+        
+        .education-item .year {
+            color: #888;
+            font-size: 0.9em;
+        }
+        
+        .skills-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+        
+        .skills-grid .skill-tag {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+        
+        footer {
+            background: #f8f9fa;
+            padding: 20px;
+            text-align: center;
+            color: #666;
+            font-size: 0.9em;
+        }
+        
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2em;
+            }
+            
+            header h2 {
+                font-size: 1.1em;
+            }
+            
+            .contact-info {
+                flex-direction: column;
+                gap: 10px;
+            }
+            
+            .content {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Bruno Willian Andrade</h1>
+            <h2>Game Developer | VR/AR Specialist | Interactive Systems Architect</h2>
+            <div class="contact-info">
+                <a href="mailto:brunowillianandrade@gmail.com">brunowillianandrade@gmail.com</a>
+                <span>|</span>
+                <span>+55 11 99470-7094</span>
+                <span>|</span>
+                <a href="https://www.linkedin.com/in/bruno-willian" target="_blank">linkedin.com/in/bruno-willian</a>
+                <span>|</span>
+                <span>São Paulo, Brazil</span>
+            </div>
+        </header>
+        
+        <div class="content">
+            <section>
+                <h3>Summary</h3>
+                <p class="summary">
+                    Senior Game Developer and Interactive Systems Architect with over 14 years of professional programming experience and deep specialization in Unity3D, Virtual Reality (VR), Augmented Reality (AR), and hardware-software integration. Proven track record in leading development teams, architecting immersive experiences for museums and showrooms, and delivering cross-platform solutions spanning mobile games, embedded systems, and web applications. Extensive hands-on expertise with C, C#, C++, Java, Lua, and TypeScript across engines including Unity3D, Godot, Phaser3, SDL2, and Love2D. Passionate about pushing the boundaries of interactive entertainment and spatial computing.
+                </p>
+            </section>
+            
+            <section>
+                <h3>Experience</h3>
+                
+                <div class="experience-item">
+                    <h4>Unity 3D Engineer / Lead Architect</h4>
+                    <div class="company">Venosa</div>
+                    <div class="period">São Paulo, Brazil | 11/2021 – Present</div>
+                    <p>Lead programmer and architect for interactive exhibitions, primarily the GS1 corporate museum in São Paulo. Responsible for planning timelines, managing hardware-software integration tasks, and proposing innovative products for internal development and direct sales.</p>
+                    <ul>
+                        <li>Architected and built an immersive meeting room system in Unity3D for 360° content display and multi-program control, combining C++, NDI streaming, Strapi CMS, and GraphQL backends.</li>
+                        <li>Designed and delivered interactive museum kiosks with Unity3D and Arduino serial communication, enabling physical-digital visitor engagement with real-time sensor feedback.</li>
+                        <li>Optimized prototype delivery workflow, reducing turnaround time significantly through reusable tool frameworks and modular scene management.</li>
+                    </ul>
+                    <div class="skills">
+                        <span class="skill-tag">Unity3D</span>
+                        <span class="skill-tag">C#</span>
+                        <span class="skill-tag">C++</span>
+                        <span class="skill-tag">Arduino</span>
+                        <span class="skill-tag">NDI</span>
+                        <span class="skill-tag">Strapi</span>
+                        <span class="skill-tag">GraphQL</span>
+                        <span class="skill-tag">Heroku</span>
+                    </div>
+                </div>
+                
+                <div class="experience-item">
+                    <h4>Programmer</h4>
+                    <div class="company">Antídoto Tecnologias Interativas</div>
+                    <div class="period">São Paulo, Brazil | 11/2020 – 01/2022</div>
+                    <p>Designed and built Unity3D applications for showrooms and self-service kiosks. Developed a data collection and medical training system using AWS S3 for distribution and SQLite for local persistence.</p>
+                    <ul>
+                        <li>Improved legacy serial communication library, reducing hardware communication errors and extending support for new device protocols.</li>
+                        <li>Created real-time green screen photo capture system integrated with AWS S3 and Twilio for WhatsApp/SMS image delivery.</li>
+                        <li>Extended digital brokerage totem functionality by architecting a remote content management solution using Headless CMS Strapi and Heroku, improving content update agility.</li>
+                    </ul>
+                    <div class="skills">
+                        <span class="skill-tag">Unity3D</span>
+                        <span class="skill-tag">C#</span>
+                        <span class="skill-tag">AWS S3</span>
+                        <span class="skill-tag">SQLite</span>
+                        <span class="skill-tag">Twilio</span>
+                        <span class="skill-tag">Strapi</span>
+                        <span class="skill-tag">Heroku</span>
+                        <span class="skill-tag">Arduino</span>
+                        <span class="skill-tag">Vuforia</span>
+                    </div>
+                </div>
+                
+                <div class="experience-item">
+                    <h4>Game Developer</h4>
+                    <div class="company">TDA</div>
+                    <div class="period">São Paulo, Brazil (remote) | 04/2020 – 06/2020</div>
+                    <ul>
+                        <li>Developed a web-based electronic bingo game using Phaser3 and TypeScript, following server communication specs for numbers and prize synchronization.</li>
+                        <li>Leveraged a JSON object-encapsulation framework for rapid product prototyping, accelerating the development cycle.</li>
+                    </ul>
+                    <div class="skills">
+                        <span class="skill-tag">Phaser3</span>
+                        <span class="skill-tag">TypeScript</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">REST APIs</span>
+                    </div>
+                </div>
+                
+                <div class="experience-item">
+                    <h4>Game Developer</h4>
+                    <div class="company">Tapps Games</div>
+                    <div class="period">São Paulo, Brazil | 06/2019 – 02/2020</div>
+                    <p>Maintained and developed features for the game Bidwars. Integrated monetization platforms (e.g., Hypermx) with native Android and iOS layers across multiple game engines.</p>
+                    <ul>
+                        <li>Programmed in Java, Python, and C++ to support new ad partners and monetization SDKs.</li>
+                        <li>Supported the build pipeline in Golang, updating dependencies and resolving cross-platform compilation issues.</li>
+                        <li>Actively participated in Scrum ceremonies, code reviews, and documentation across a team of 10+ developers and designers.</li>
+                    </ul>
+                    <div class="skills">
+                        <span class="skill-tag">Lua</span>
+                        <span class="skill-tag">Java</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">C++</span>
+                        <span class="skill-tag">Golang</span>
+                        <span class="skill-tag">Love2D</span>
+                        <span class="skill-tag">Android</span>
+                        <span class="skill-tag">iOS</span>
+                        <span class="skill-tag">Scrum</span>
+                    </div>
+                </div>
+                
+                <div class="experience-item">
+                    <h4>Software Programmer</h4>
+                    <div class="company">RED Asset</div>
+                    <div class="period">São Paulo, Brazil | 09/2018 – 01/2019</div>
+                    <ul>
+                        <li>Developed full-stack web systems with Angular frontend and ASP.NET Core MVC backend, managing internal business processes and SQL Server databases.</li>
+                        <li>Worked with Big Data processing using Apache Hadoop MapReduce (Java) on AWS EC2 to process client data and generate engagement catalogs.</li>
+                    </ul>
+                    <div class="skills">
+                        <span class="skill-tag">ASP.NET Core</span>
+                        <span class="skill-tag">C#</span>
+                        <span class="skill-tag">Angular</span>
+                        <span class="skill-tag">SQL Server</span>
+                        <span class="skill-tag">Apache Hadoop</span>
+                        <span class="skill-tag">AWS EC2</span>
+                        <span class="skill-tag">Java</span>
+                    </div>
+                </div>
+                
+                <div class="experience-item">
+                    <h4>Software Engineer</h4>
+                    <div class="company">Ortiz Gaming</div>
+                    <div class="period">São Paulo, Brazil | 08/2013 – 04/2018</div>
+                    <p>Programmed electronic bingo games in C using SDL2 for embedded systems. Responsible for system architecture, documentation, C++ engine maintenance, AS3 animations, and REST service creation.</p>
+                    <ul>
+                        <li>Developed a remote X11 session controller in C using libx11 for Debian systems, controlling application windows based on server messages and credit availability.</li>
+                        <li>Built Godot-based slot machine games with GDScript and native C++ calls, modifying the engine for Linux touchscreen support.</li>
+                        <li>Created mock REST endpoints and game server features in .NET Core, including a messaging system that controlled an X11 interface, documented with Swagger.</li>
+                        <li>Maintained payment logic and credit system integrations, reducing bug occurrence through rigorous redundancy checks on EEPROM-stored prize values.</li>
+                    </ul>
+                    <div class="skills">
+                        <span class="skill-tag">C</span>
+                        <span class="skill-tag">C++</span>
+                        <span class="skill-tag">SDL2</span>
+                        <span class="skill-tag">Godot</span>
+                        <span class="skill-tag">GDScript</span>
+                        <span class="skill-tag">AS3</span>
+                        <span class="skill-tag">.NET Core</span>
+                        <span class="skill-tag">Java</span>
+                        <span class="skill-tag">LibGDX</span>
+                        <span class="skill-tag">Phaser3</span>
+                        <span class="skill-tag">X11</span>
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">SVN</span>
+                    </div>
+                </div>
+                
+                <div class="experience-item">
+                    <h4>System Analyst</h4>
+                    <div class="company">Mazzatech (contracted by Sky TV)</div>
+                    <div class="period">São Paulo, Brazil | 04/2018 – 06/2018</div>
+                    <ul>
+                        <li>Backend programmer using Spark and Hadoop MapReduce (Java) for distributed data processing on AWS EC2, generating client catalogs from large datasets.</li>
+                    </ul>
+                    <div class="skills">
+                        <span class="skill-tag">Apache Spark</span>
+                        <span class="skill-tag">Hadoop</span>
+                        <span class="skill-tag">Java</span>
+                        <span class="skill-tag">AWS EC2</span>
+                    </div>
+                </div>
+                
+                <div class="experience-item">
+                    <h4>Application Developer</h4>
+                    <div class="company">Antídoto Design</div>
+                    <div class="period">São Paulo, Brazil | 03/2019 – 06/2019</div>
+                    <ul>
+                        <li>Developed interactive AR experiences for iPads and VR experiences for Gear VR using Vuforia and Unity3D.</li>
+                        <li>Acted as architect-programmer on a Unity3D museum project communicating via serial with Arduino to measure physical cube rotation.</li>
+                    </ul>
+                    <div class="skills">
+                        <span class="skill-tag">Unity3D</span>
+                        <span class="skill-tag">C#</span>
+                        <span class="skill-tag">Vuforia</span>
+                        <span class="skill-tag">AR</span>
+                        <span class="skill-tag">VR</span>
+                        <span class="skill-tag">Gear VR</span>
+                        <span class="skill-tag">Arduino</span>
+                    </div>
+                </div>
+                
+                <div class="experience-item">
+                    <h4>System Analyst</h4>
+                    <div class="company">Fast Solutions</div>
+                    <div class="period">São Paulo, Brazil | 05/2012 – 09/2012</div>
+                    <ul>
+                        <li>Maintained and developed credit management software using C# with Entity Framework and PL/SQL.</li>
+                    </ul>
+                    <div class="skills">
+                        <span class="skill-tag">C#</span>
+                        <span class="skill-tag">Entity Framework</span>
+                        <span class="skill-tag">PL/SQL</span>
+                        <span class="skill-tag">MS SQL Server</span>
+                    </div>
+                </div>
+                
+                <div class="experience-item">
+                    <h4>User Support</h4>
+                    <div class="company">Harley-Davidson do Brasil</div>
+                    <div class="period">São Paulo, Brazil | 12/2010 – 12/2011</div>
+                    <ul>
+                        <li>Internal user support, technical sector maintenance and installation, systems analysis, server deployment projects, and process mapping for new software.</li>
+                    </ul>
+                </div>
+            </section>
+            
+            <section>
+                <h3>Education</h3>
+                
+                <div class="education-item">
+                    <h4>Postgraduate in Game Design & Development</h4>
+                    <div class="school">SENAC, Brazil</div>
+                    <div class="year">2015 – 2016</div>
+                    <p>Capstone project: "Don't Blink VR" — a VR game for Google Cardboard with Bluetooth controller. Sole creator, game designer, and lead programmer. Exhibited at SENAC career fairs, Sesc Consolação, Comic Con Experience, and presented at Sky TV.</p>
+                </div>
+                
+                <div class="education-item">
+                    <h4>BSc in Systems Analysis & Development</h4>
+                    <div class="school">Universidade Metodista de São Paulo, Brazil</div>
+                    <div class="year">2009 – 2012</div>
+                </div>
+                
+                <div class="education-item">
+                    <h4>Coursework in Computer Science</h4>
+                    <div class="school">UNIFESP, Brazil</div>
+                    <div class="year">2008 – 2009 (3 semesters)</div>
+                </div>
+            </section>
+            
+            <section>
+                <h3>Languages</h3>
+                <p><strong>Portuguese:</strong> Native</p>
+                <p><strong>English:</strong> Full professional proficiency</p>
+            </section>
+            
+            <section>
+                <h3>Skills</h3>
+                <div class="skills-grid">
+                    <span class="skill-tag">C</span>
+                    <span class="skill-tag">C#</span>
+                    <span class="skill-tag">C++</span>
+                    <span class="skill-tag">Java</span>
+                    <span class="skill-tag">Lua</span>
+                    <span class="skill-tag">TypeScript</span>
+                    <span class="skill-tag">JavaScript</span>
+                    <span class="skill-tag">Python</span>
+                    <span class="skill-tag">Golang</span>
+                    <span class="skill-tag">GDScript</span>
+                    <span class="skill-tag">AS3</span>
+                    <span class="skill-tag">PHP</span>
+                    <span class="skill-tag">Unity3D</span>
+                    <span class="skill-tag">Godot</span>
+                    <span class="skill-tag">Unreal</span>
+                    <span class="skill-tag">SDL2</span>
+                    <span class="skill-tag">Phaser3</span>
+                    <span class="skill-tag">Love2D</span>
+                    <span class="skill-tag">.NET Core</span>
+                    <span class="skill-tag">ASP.NET</span>
+                    <span class="skill-tag">Angular</span>
+                    <span class="skill-tag">AWS (EC2, S3)</span>
+                    <span class="skill-tag">SQLite</span>
+                    <span class="skill-tag">SQL Server</span>
+                    <span class="skill-tag">MongoDB</span>
+                    <span class="skill-tag">Apache Hadoop</span>
+                    <span class="skill-tag">Spark</span>
+                    <span class="skill-tag">Docker</span>
+                    <span class="skill-tag">Git</span>
+                    <span class="skill-tag">SVN</span>
+                    <span class="skill-tag">Scrum</span>
+                    <span class="skill-tag">CI/CD</span>
+                    <span class="skill-tag">TDD</span>
+                    <span class="skill-tag">Arduino</span>
+                    <span class="skill-tag">Serial Communication</span>
+                    <span class="skill-tag">Vuforia</span>
+                    <span class="skill-tag">OpenVR</span>
+                    <span class="skill-tag">XR Toolkit</span>
+                    <span class="skill-tag">NDI</span>
+                    <span class="skill-tag">Strapi</span>
+                    <span class="skill-tag">GraphQL</span>
+                    <span class="skill-tag">Heroku</span>
+                    <span class="skill-tag">Twilio</span>
+                    <span class="skill-tag">ZeroMQ</span>
+                    <span class="skill-tag">UDP</span>
+                    <span class="skill-tag">OpenGL</span>
+                    <span class="skill-tag">Shaders</span>
+                </div>
+            </section>
+            
+            <section>
+                <h3>Additional Information</h3>
+                <p>Open to remote and relocation opportunities worldwide.</p>
+                <p>Extensive experience in hardware-software integration, embedded systems, and interactive installations for corporate museums and events.</p>
+                <p>Strong background in VR/AR development across Gear VR, HTC Vive, Oculus Rift, Google Cardboard, and modern XR platforms.</p>
+            </section>
+        </div>
+        
+        <footer>
+            <p>© 2026 Bruno Willian Andrade | Built with HTML & CSS</p>
+        </footer>
+    </div>
+</body>
+</html>
